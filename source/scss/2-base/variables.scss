@@ -1,6 +1,5 @@
 // Colors
 
-
 $primary:  #073763;
 $accent:  #E4572E;
 
@@ -15,3 +14,20 @@ $white:  #fff;
 $silver: #ddd;
 $gray:   #aaa;
 $black:  #111;
+
+
+
+// Font Weights
+
+$light: 300;
+$normal: 400;
+$semibold: 500;
+$bold: 700;
+
+//Fonts
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+$sans-serif: "Open Sans", Helvetica, Verdana, sans-serif;
+$serif: Merriweather, Georgia, "Times New Roman", serif;
+$mono: "Source Code Pro", Courier, mono;

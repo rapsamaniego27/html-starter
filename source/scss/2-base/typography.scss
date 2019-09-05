@@ -1,0 +1,12 @@
+// Typography
+
+@import '../2-base/variables';
+
+h1, h2, h3, h4, h5, h6{
+  color: $accent;
+  font-family: $sans-serif;
+  font-weight: $bold;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.03);
+}
+
+
