@@ -23,8 +23,9 @@ function scssTask(){
     return src(files.scssPath)
         .pipe(sourcemaps.init()) // initialize sourcemaps first
         .pipe(sass()) // compile SCSS to CSS
+        .pipe(concat('style.min.css'))
         .pipe(postcss([ autoprefixer(), cssnano() ])) // PostCSS plugins
-        .pipe(sourcemaps.write('.')) // write sourcemaps file in current directory
+        .pipe(sourcemaps.write('.')) // write sourcemaps file in current directory 
         .pipe(dest('dist')
     ); // put final CSS in dist folder
 }
@@ -35,7 +36,7 @@ function jsTask(){
         files.jsPath
         //,'!' + 'includes/js/jquery.min.js', // to exclude any specific files
         ])
-        .pipe(concat('all.js'))
+        .pipe(concat('app.min.js'))
         .pipe(uglify())
         .pipe(dest('dist')
     );
