@@ -3,18 +3,12 @@
 *{
   margin:0;
   padding:0;
-  
+	transition: all 0.5s ease-in-out;
 }
 
 
 html{
 font-size:16px;
-
-	@media #{$mq-sm}{
-		font-size:14px;
-		
-	}
-
 
 }
 
@@ -171,5 +165,6 @@ fieldset {
 a {
   color: #0074D9;
   text-decoration: none;
-	outline: 0; }
+	outline: 0; 
+}
 	
