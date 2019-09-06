@@ -21,7 +21,8 @@ font-size:16px;
 html,body{
   height:100%;
   -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-family: $sans-serif;
 }
 
 article, aside, details, figcaption, figure, 
@@ -170,7 +171,5 @@ fieldset {
 a {
   color: #0074D9;
   text-decoration: none;
-  outline: 0; }
-  a:hover, a:focus {
-		color: #F012BE;
-}
+	outline: 0; }
+	
