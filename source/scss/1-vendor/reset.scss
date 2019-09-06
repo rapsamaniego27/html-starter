@@ -1,7 +1,21 @@
+@import '../2-base/variables';
+
 *{
   margin:0;
   padding:0;
   
+}
+
+
+html{
+font-size:16px;
+
+	@media #{$mq-sm}{
+		font-size:14px;
+		
+	}
+
+
 }
 
 html,body{
@@ -9,8 +23,6 @@ html,body{
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-
-
 
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
