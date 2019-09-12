@@ -1,5 +1,7 @@
+@import '../2-base/variables';
+
 .grid-container{
-  background:lightblue;;
+  background:$gray;
   max-width:50rem;
   width:calc(100% - 10rem);
   margin:0 auto;

@@ -11,3 +11,7 @@
 .btn-danger{
   @include btn-background($danger);
 }
+
+.btn-info{
+  @include btn-background($info);
+}
