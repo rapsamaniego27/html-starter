@@ -7,3 +7,7 @@
 .btn-success{
   @include btn-background($success);
 }
+
+.btn-danger{
+  @include btn-background($danger);
+}
