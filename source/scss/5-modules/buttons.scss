@@ -15,3 +15,8 @@
 .btn-info{
   @include btn-background($info);
 }
+
+.btn-warning{
+  @include btn-background($warning);
+}
+
