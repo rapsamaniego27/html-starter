@@ -24,7 +24,7 @@ function scssTask(){
         .pipe(sourcemaps.init()) // initialize sourcemaps first
         .pipe(sass()) // compile SCSS to CSS
         .pipe(concat('style.min.css'))
-        .pipe(postcss([ cssnano(), autoprefixer({ overrideBrowserslist: ['IE 6','Chrome 9', 'Firefox 14']}) ])) // PostCSS plugins
+        // .pipe(postcss([ cssnano(), autoprefixer({ overrideBrowserslist: ['IE 6','Chrome 9', 'Firefox 14']}) ])) // PostCSS plugins
         .pipe(sourcemaps.write('.')) // write sourcemaps file in current directory 
         .pipe(dest('dist')
     ); // put final CSS in dist folder
