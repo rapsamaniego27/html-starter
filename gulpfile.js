@@ -14,7 +14,7 @@ var replace = require('gulp-replace');
 
 // File paths
 const files = { 
-    scssPath: 'source/scss/**/*.scss',
+    scssPath: 'source/scss/style.scss',
     jsPath: 'source/js/**/*.js'
 }
 
